@@ -89,12 +89,12 @@ func marshalUnmarshal() {
 	}
 
 	employees := []Employee{
-		Employee{
+		{
 			Person: Person{
 				LastName: "Snow", FirstName: "John",
 			},
 		},
-		Employee{
+		{
 			Person: Person{
 				LastName: "North", FirstName: "King",
 			},
